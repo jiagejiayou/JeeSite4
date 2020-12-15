@@ -27,7 +27,7 @@
 		<eclipse-plugin-download-javadocs>false</eclipse-plugin-download-javadocs>
 		
 		<!-- docker service -->
-		<docker.registryUrl>http://192.168.56.102:2375</docker.registryUrl>
+		<docker.registryUrl>http://121.4.80.244:2375</docker.registryUrl>
 		<docker.imageName>${project.groupId}/${project.artifactId}:4.1</docker.imageName>
 		
 	</properties>
@@ -49,11 +49,11 @@
 		</dependency>
 		
 		<!-- Office在线预览 -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.jeesite</groupId>
 			<artifactId>jeesite-module-weboffice</artifactId>
 			<version>${project.parent.version}</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- Spring Boot -->
 		<dependency>
